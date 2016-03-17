@@ -37,35 +37,21 @@
 <body>
 
     <!-- Navigation -->
-    <!--
     <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand">
-                <a href="#top"  onclick = $("#menu-close").click(); >Heading</a>
+            <li>
+                <a href="#homeDiv" onclick = $("#menu-close").click(); >Home</a>
             </li>
             <li>
-                <a href="#top" onclick = $("#menu-close").click(); >Home</a>
+                <a href="#aboutMeDiv" onclick = $("#menu-close").click(); >Little about me</a>
             </li>
             <li>
-                <a href="#portfolio" onclick = $("#menu-close").click(); >What keeps me busy?</a>
-            </li>
-            <li>
-                <a href="#moms_word" onclick = $("#menu-close").click(); >What does Mommy say?</a>
-            </li>
-            <li>
-                <a href="#dads_word" onclick = $("#menu-close").click(); >What does Dad say?</a>
-            </li>
-            <li>
-                <a href="#videos" onclick = $("#menu-close").click(); >Watch me in action</a>
-            </li>
-            <li>
-                <a href="#contact_me" onclick = $("#menu-close").click(); >Contact me</a>
+                <a href="#myFamilyDiv" onclick = $("#menu-close").click(); >My Family</a>
             </li>
         </ul>
      </nav>
-    --!>
 
     <!--
     <header id="top" class="header">
@@ -76,7 +62,7 @@
     --!>
 
     <header id="top" class="header">
-    <div class="text-vertical-center">
+    <div class="text-vertical-center" id='homeDiv'>
             <h1 class="heading-firstLine">Hi there,</h1>
             <h3 style="margin-right:-720px;color:white;opacity:0.6;" class="heading-secondLine">Keep scrolling to know more about me :)</h3>
             <br>
@@ -84,7 +70,7 @@
         </div>
     </header>
 
-    <section id="portfolio" class="portfolio">
+    <section class="portfolio" id='aboutMeDiv'>
         <div class="container my-family">
             <div class="row myfamilyRow">
                 <div class="col-lg-10 col-lg-offset-1 text-center myfamilyDiv">
@@ -276,98 +262,75 @@
 
     <section class="bg-primary" style="height:1px;background-color:grey;"></section>
 
-    <section id="portfolio" class="portfolio">
+    <section class="portfolio" id='myFamilyDiv'>
         <div class="container my-family">
             <div class="row myfamilyRow">
                 <div class="col-lg-10 col-lg-offset-1 text-center myfamilyDiv">
                     <h2>Mom Dad and everyone that loves me</h2>
                     <hr class="small">
-                    <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                             <div class="portfolio-item">
                                 <a href="#">
                                     <img class="img-portfolio img-responsive" src="http://res.cloudinary.com/dsz68cjzb/image/upload/v1458052684/mannys-site/everyone%20loves%20me/DSC_0569.jpg" >
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="http://res.cloudinary.com/dsz68cjzb/image/upload/v1458052764/mannys-site/everyone%20loves%20me/DSC_0272.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                             <div class="portfolio-item">
                                 <a href="#">
                                     <img class="img-portfolio img-responsive" src="http://res.cloudinary.com/dsz68cjzb/image/upload/v1458052667/mannys-site/everyone%20loves%20me/thumb_DSC_0331_1024.jpg" >
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="http://res.cloudinary.com/dsz68cjzb/image/upload/v1458052677/mannys-site/everyone%20loves%20me/IMG_1648.jpg" >
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="http://res.cloudinary.com/dsz68cjzb/image/upload/v1458052685/mannys-site/everyone%20loves%20me/IMG_1574.jpg" >
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="http://res.cloudinary.com/dsz68cjzb/image/upload/v1458052685/mannys-site/everyone%20loves%20me/IMG_0790.jpg" >
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                             <div class="portfolio-item">
                                 <a href="#">
                                     <img class="img-portfolio img-responsive" src="http://res.cloudinary.com/dsz68cjzb/image/upload/v1458052817/mannys-site/everyone%20loves%20me/DSC_0517.jpg" >
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                             <div class="portfolio-item">
                                 <a href="#">
-                                    <img class="img-portfolio img-responsive" src="http://res.cloudinary.com/dsz68cjzb/image/upload/v1458052665/mannys-site/everyone%20loves%20me/DSC_0058.jpg">
+                                    <img class="img-portfolio img-responsive" src="http://res.cloudinary.com/dsz68cjzb/image/upload/v1458052811/mannys-site/everyone%20loves%20me/thumb_DSC_0336_1024.jpg" >
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-4">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="http://res.cloudinary.com/dsz68cjzb/image/upload/a_0/v1458052677/mannys-site/everyone%20loves%20me/IMG_1648.jpg" >
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
                             <div class="portfolio-item">
                                 <a href="#">
                                     <img class="img-portfolio img-responsive" src="http://res.cloudinary.com/dsz68cjzb/image/upload/v1458052812/mannys-site/everyone%20loves%20me/thumb_DSC_0333_1024.jpg" >
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                             <div class="portfolio-item">
                                 <a href="#">
-                                    <img class="img-portfolio img-responsive" src="http://res.cloudinary.com/dsz68cjzb/image/upload/v1458052675/mannys-site/everyone%20loves%20me/IMG_0224.jpg" >
+                                    <img class="img-portfolio img-responsive" src="http://res.cloudinary.com/dsz68cjzb/image/upload/v1458052764/mannys-site/everyone%20loves%20me/DSC_0272.jpg" >
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-4">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="http://res.cloudinary.com/dsz68cjzb/image/upload/a_0/v1458052685/mannys-site/everyone%20loves%20me/IMG_0790.jpg" >
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
                             <div class="portfolio-item">
                                 <a href="#">
                                     <img class="img-portfolio img-responsive" src="http://res.cloudinary.com/dsz68cjzb/image/upload/v1458052695/mannys-site/everyone%20loves%20me/DSC_0410.jpg" >
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="http://res.cloudinary.com/dsz68cjzb/image/upload/v1458052668/mannys-site/everyone%20loves%20me/IMG_1565.jpg" >
-                                </a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -601,7 +564,6 @@
     <script>
 
 
-    /*
     // Closes the sidebar menu
     $("#menu-close").click(function(e) {
         e.preventDefault();
@@ -614,11 +576,12 @@
         $("#sidebar-wrapper").toggleClass("active");
     });
 
+    /*
     $('div.tlcontainer').simpleTimeline({
         startDate: 1,
     });
+    */
 
-    // Scrolls to the selected menu item on the page
     $(function() {
         $('a[href*=#]:not([href=#])').click(function() {
             if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
@@ -635,7 +598,6 @@
         });
     });
 
-    */
     </script>
 
 </body>
